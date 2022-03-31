@@ -1,0 +1,60 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @font-face {
+        font-family: far-from-homecoming;
+        src: url(../Far-From\ Homecoming\ Updated.otf);
+    }
+    
+    .spiderman {
+        font-family: far-from-homecoming, sans-serif;
+        padding: 20% 0 3% 0;
+    }
+    /*section*/
+    
+    .premier {
+        background-repeat: no-repeat;
+        background-image: url(../Logo/img35.jpg);
+        background-size: 100% 100%;
+        padding: 20% 2% 1% 10%;
+        background-repeat: no-repeat;
+    }
+    /*footer*/
+    
+    .leader {
+        position: relative;
+    }
+    
+    .sub-leader {
+        position: absolute;
+        left: 53%;
+    }
+    
+    .ex {
+        padding-right: 24.5%;
+    }
+    
+    .desktop {
+        margin-left: 40vw;
+    }
+    
+    .mobile {
+        margin-left: 30vw;
+    }
+    
+    .circle-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    /*version mobile*/
+    
+    .image {
+        padding: 3% 0 0 30%;
+    }
+    
+    .sky {
+        margin: 0% 0 0 20%;
+    }

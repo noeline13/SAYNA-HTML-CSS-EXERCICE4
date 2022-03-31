@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: far-from-homecoming;
+    src: url(../Far-From\ Homecoming\ Updated.otf);
+}
+
+.spiderman {
+    font-family: far-from-homecoming, sans-serif;
+}
+
+
+/*section*/
+
+.section-1 {
+    background-repeat: no-repeat;
+    background-image: url(../Illustration/img19.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+    .div {
+        padding: 22% 0 15% 5% !important;
+    }
+    nav {
+        background-color: #f1c530;
+    }
+}
+
+.div {
+    padding: 9% 0 25% 5%;
+}
+
+.section-3 {
+    background-repeat: no-repeat;
+    background-image: url(../Illustration/img20.png);
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 5% 0% 15% 1%;
+    background-repeat: no-repeat;
+}
+
+.section-6 {
+    background-repeat: no-repeat;
+    background-image: url(../Illustration/img33.png);
+    background-size: 100% 100%;
+}
+
+.transparent {
+    background-color: hsl(240, 100%, 50%, 0.2);
+    width: 40%;
+    margin-left: 50%;
+}
+
+.video {
+    width: 100%;
+    height: 400px;
+}
+
+
+/*footer*/
+
+.leader {
+    position: relative;
+}
+
+.sub-leader {
+    position: absolute;
+    left: 53%;
+}
+
+.ex {
+    padding-right: 24.5%;
+}
+
+.desktop {
+    margin-left: 40vw;
+}
+
+.mobile {
+    margin-left: 30vw;
+}
+
+.circle-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+/*version mobile*/
+
+.image {
+    padding: 3% 0 0 30%;
+}
+
+.sky {
+    margin: 0% 0 0 20%;
+}

@@ -1,0 +1,140 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @font-face {
+        font-family: far-from-homecoming;
+        src: url(../Far-From\ Homecoming\ Updated.otf);
+    }
+    /*main*/
+    /*section-1*/
+    /*version desktop*/
+    
+    .section-1 {
+        background-image: url(../Illustration/img1.png);
+        background-position: center;
+        background-size: cover;
+        padding: 5% 12% 20% 12%;
+    }
+    
+    .spiderman {
+        font-family: far-from-homecoming, sans-serif;
+        padding: 20% 0 5% 0;
+    }
+    
+    .text {
+        font-size: 1.6vh;
+    }
+    /*version mobile*/
+    
+    .sections-1 {
+        background-image: url(../Illustration/img1.png);
+        background-position: center;
+        background-size: 100% 100%;
+        padding: 10% 10%;
+    }
+    /*section-2*/
+    
+    .section-2,
+    .card,
+    .section-4 {
+        background-color: #b1131b;
+    }
+    
+    .card-lead {
+        padding: 0 0 2% 7%;
+    }
+    /*setion-3*/
+    /*version destop*/
+    
+    .section-3 {
+        background-image: url(../Illustration/img5.png);
+        background-position: 0% 80%;
+        background-repeat: no-repeat;
+        background-size: initial;
+    }
+    
+    .card-lead {
+        padding-right: 2%;
+    }
+    
+    .formule {
+        padding: 0 4% 0 60%;
+    }
+    
+    .check::placeholder {
+        color: #fff;
+        opacity: 1;
+    }
+    
+    .submit {
+        margin-right: 15%;
+    }
+    
+    .par {
+        font-size: 2.4vh;
+    }
+    
+    .pars {
+        font-size: 2.3vh;
+    }
+    /*section-4*/
+    
+    .section-4 {
+        padding: 10% 4% 7% 0;
+        background-image: url(../Illustration/img6.png);
+        background-position: 140% 1%;
+        background-repeat: no-repeat;
+        background-size: 66%;
+    }
+    
+    .news {
+        margin-left: 7%;
+    }
+    /*version mobile*/
+    
+    .sections-4 {
+        padding: 10% 4% 7% 0;
+        background-image: url(../Illustration/img6.png);
+        background-position: 130% 100%;
+        background-repeat: no-repeat;
+        background-size: 52%;
+    }
+    /*footer*/
+    
+    .leader {
+        position: relative;
+    }
+    
+    .sub-leader {
+        position: absolute;
+        left: 53%;
+    }
+    
+    .ex {
+        padding-right: 24.5%;
+    }
+    
+    .desktop {
+        margin-left: 40vw;
+    }
+    
+    .mobile {
+        margin-left: 30vw;
+    }
+    
+    .circle-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    /*version mobile*/
+    
+    .image {
+        padding: 3% 0 0 30%;
+    }
+    
+    .sky {
+        margin: 0% 0 0 20%;
+    }
