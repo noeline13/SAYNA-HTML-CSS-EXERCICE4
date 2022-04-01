@@ -37,11 +37,13 @@
     }
     
     .desktop {
-        margin-left: 40vw;
+        margin-left: 30vw;
     }
     
-    .mobile {
-        margin-left: 30vw;
+    @media (min-width:768px) {
+        .desktop {
+            margin-left: 40vw;
+        }
     }
     
     .circle-icon {
