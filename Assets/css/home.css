@@ -9,7 +9,6 @@
     }
     /*main*/
     /*section-1*/
-    /*version desktop*/
     
     .section-1 {
         background-image: url(../Illustration/img1.png);
@@ -37,7 +36,6 @@
         padding: 0 0 2% 7%;
     }
     /*setion-3*/
-    /*version destop*/
     
     .section-3 {
         background-image: url(../Illustration/img5.png);
@@ -70,29 +68,30 @@
     .pars {
         font-size: 2.3vh;
     }
-    /*section-4*/
+    /*  section-4  */
     
     .section-4 {
-        padding: 10% 4% 7% 0;
+        padding: 10% 4% 5% 0;
         background-image: url(../Illustration/img6.png);
-        background-position: 140% 1%;
+        background-position: 210% 110%;
         background-repeat: no-repeat;
-        background-size: 66%;
+        background-size: 75%;
     }
     
-    .news {
-        margin-left: 7%;
+    .form {
+        padding: 15% 0 0 10%;
     }
-    /*version mobile*/
     
-    .sections-4 {
-        padding: 10% 4% 7% 0;
-        background-image: url(../Illustration/img6.png);
-        background-position: 130% 100%;
-        background-repeat: no-repeat;
-        background-size: 52%;
+    @media (min-width:768px) {
+        .section-4 {
+            padding: 10% 4% 19% 0;
+            background-position: 150% 100%;
+        }
+        .form {
+            padding: 10% 0 0 0%;
+        }
     }
-    /*footer*/
+    /*  footer  */
     
     .leader {
         position: relative;
@@ -121,13 +120,4 @@
         width: 40px;
         height: 40px;
         border-radius: 50%;
-    }
-    /*version mobile*/
-    
-    .image {
-        padding: 3% 0 0 30%;
-    }
-    
-    .sky {
-        margin: 0% 0 0 20%;
     }
